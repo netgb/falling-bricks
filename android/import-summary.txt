@@ -1,0 +1,215 @@
+ECLIPSE ANDROID PROJECT IMPORT SUMMARY
+======================================
+
+Manifest Merging:
+-----------------
+Your project uses libraries that provide manifests, and your Eclipse
+project did not explicitly turn on manifest merging. In Android Gradle
+projects, manifests are always merged (meaning that contents from your
+libraries' manifests will be merged into the app manifest. If you had
+manually copied contents from library manifests into your app manifest
+you may need to remove these for the app to build correctly.
+
+Ignored Files:
+--------------
+The following files were *not* copied into the new Gradle project; you
+should evaluate whether these are still needed in your project and if
+so manually move them:
+
+* .ant-targets-build.xml
+* ant.properties
+* bin4ant/
+* bin4ant/AndroidManifest.xml
+* bin4ant/AndroidManifest.xml.d
+* bin4ant/FallingBricks-release-unaligned.apk
+* bin4ant/FallingBricks-release-unsigned.apk
+* bin4ant/FallingBricks-release-unsigned.apk.d
+* bin4ant/FallingBricks-release.apk
+* bin4ant/FallingBricks.ap_
+* bin4ant/FallingBricks.ap_.d
+* bin4ant/R.txt
+* bin4ant/build.prop
+* bin4ant/classes.dex
+* bin4ant/classes.dex.d
+* bin4ant/classes/
+* bin4ant/classes/android/
+* bin4ant/classes/android/support/
+* bin4ant/classes/android/support/v7/
+* bin4ant/classes/android/support/v7/appcompat/
+* bin4ant/classes/android/support/v7/appcompat/R$anim.class
+* bin4ant/classes/android/support/v7/appcompat/R$attr.class
+* bin4ant/classes/android/support/v7/appcompat/R$bool.class
+* bin4ant/classes/android/support/v7/appcompat/R$color.class
+* bin4ant/classes/android/support/v7/appcompat/R$dimen.class
+* bin4ant/classes/android/support/v7/appcompat/R$drawable.class
+* bin4ant/classes/android/support/v7/appcompat/R$id.class
+* bin4ant/classes/android/support/v7/appcompat/R$integer.class
+* bin4ant/classes/android/support/v7/appcompat/R$layout.class
+* bin4ant/classes/android/support/v7/appcompat/R$string.class
+* bin4ant/classes/android/support/v7/appcompat/R$style.class
+* bin4ant/classes/android/support/v7/appcompat/R$styleable.class
+* bin4ant/classes/android/support/v7/appcompat/R.class
+* bin4ant/classes/com/
+* bin4ant/classes/com/ayautilities/
+* bin4ant/classes/com/ayautilities/misc/
+* bin4ant/classes/com/ayautilities/misc/games/
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/AboutActivity.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/BuildConfig.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/GameActivity$1.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/GameActivity$2.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/GameActivity$3.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/GameActivity.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/GameQuitConfirmFragment$1.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/GameQuitConfirmFragment$2.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/GameQuitConfirmFragment.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/GameRestoreFragment.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/GameView$1.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/GameView$GameHandler.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/GameView.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/HelpActivity.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/HighScoresActivity.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/LevelActivity.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/LevelFragment.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/MainActivity.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/MainFragment.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/R$anim.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/R$array.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/R$attr.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/R$bool.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/R$color.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/R$dimen.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/R$drawable.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/R$id.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/R$integer.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/R$layout.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/R$menu.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/R$string.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/R$style.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/R$styleable.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/R.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/TextActivity.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/TextFragment.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/game/
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/game/Arena.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/game/Brick.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/game/BrickInfo.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/game/FallingBricksGame.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/game/FilledRowClearanceAnimator.class
+* bin4ant/classes/com/ayautilities/misc/games/fallingbricks/game/GameOverAnimator.class
+* bin4ant/jarlist.cache
+* bin4ant/proguard.txt
+* bin4ant/proguard/
+* bin4ant/proguard/dump.txt
+* bin4ant/proguard/mapping.txt
+* bin4ant/proguard/obfuscated.jar
+* bin4ant/proguard/original.jar
+* bin4ant/proguard/seeds.txt
+* bin4ant/proguard/usage.txt
+* bin4ant/res/
+* bin4ant/res/drawable-hdpi/
+* bin4ant/res/drawable-hdpi/ic_launcher.png
+* bin4ant/res/drawable-mdpi/
+* bin4ant/res/drawable-mdpi/dpad_up.png
+* bin4ant/res/drawable-mdpi/ic_launcher.png
+* bin4ant/res/drawable-xhdpi/
+* bin4ant/res/drawable-xhdpi/ic_launcher.png
+* bin4ant/res/drawable-xxhdpi/
+* bin4ant/res/drawable-xxhdpi/ic_launcher.png
+* build.xml
+* custom_rules.xml
+* gen4ant/
+* gen4ant/R.java.d
+* gen4ant/android/
+* gen4ant/android/support/
+* gen4ant/android/support/v7/
+* gen4ant/android/support/v7/appcompat/
+* gen4ant/android/support/v7/appcompat/R.java
+* gen4ant/com/
+* gen4ant/com/ayautilities/
+* gen4ant/com/ayautilities/misc/
+* gen4ant/com/ayautilities/misc/games/
+* gen4ant/com/ayautilities/misc/games/fallingbricks/
+* gen4ant/com/ayautilities/misc/games/fallingbricks/BuildConfig.java
+* gen4ant/com/ayautilities/misc/games/fallingbricks/R.java
+* ic_launcher-web.png
+* src4ant/
+* src4ant/com/
+* src4ant/com/ayautilities/
+* src4ant/com/ayautilities/misc/
+* src4ant/com/ayautilities/misc/games/
+* src4ant/com/ayautilities/misc/games/fallingbricks/
+* src4ant/com/ayautilities/misc/games/fallingbricks/AboutActivity.java
+* src4ant/com/ayautilities/misc/games/fallingbricks/GameActivity.java
+* src4ant/com/ayautilities/misc/games/fallingbricks/GameQuitConfirmFragment.java
+* src4ant/com/ayautilities/misc/games/fallingbricks/GameRestoreFragment.java
+* src4ant/com/ayautilities/misc/games/fallingbricks/GameView.java
+* src4ant/com/ayautilities/misc/games/fallingbricks/HelpActivity.java
+* src4ant/com/ayautilities/misc/games/fallingbricks/HighScoresActivity.java
+* src4ant/com/ayautilities/misc/games/fallingbricks/LevelActivity.java
+* src4ant/com/ayautilities/misc/games/fallingbricks/LevelFragment.java
+* src4ant/com/ayautilities/misc/games/fallingbricks/MainActivity.java
+* src4ant/com/ayautilities/misc/games/fallingbricks/MainFragment.java
+* src4ant/com/ayautilities/misc/games/fallingbricks/TextActivity.java
+* src4ant/com/ayautilities/misc/games/fallingbricks/TextFragment.java
+* src4ant/com/ayautilities/misc/games/fallingbricks/game/
+* src4ant/com/ayautilities/misc/games/fallingbricks/game/Arena.java
+* src4ant/com/ayautilities/misc/games/fallingbricks/game/Brick.java
+* src4ant/com/ayautilities/misc/games/fallingbricks/game/BrickInfo.java
+* src4ant/com/ayautilities/misc/games/fallingbricks/game/FallingBricksGame.java
+* src4ant/com/ayautilities/misc/games/fallingbricks/game/FilledRowClearanceAnimator.java
+* src4ant/com/ayautilities/misc/games/fallingbricks/game/GameOverAnimator.java
+
+Replaced Jars with Dependencies:
+--------------------------------
+The importer recognized the following .jar files as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the .jar file in your project was of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the jar replacement in the import wizard and try again:
+
+android-support-v4.jar => com.android.support:support-v4:21.0.3
+android-support-v7-appcompat.jar => com.android.support:appcompat-v7:21.0.3
+
+Replaced Libraries with Dependencies:
+-------------------------------------
+The importer recognized the following library projects as third party
+libraries and replaced them with Gradle dependencies instead. This has
+the advantage that more explicit version information is known, and the
+libraries can be updated automatically. However, it is possible that
+the source files in your project were of an older version than the
+dependency we picked, which could render the project not compileable.
+You can disable the library replacement in the import wizard and try
+again:
+
+android-support-v7-appcompat => [com.android.support:appcompat-v7:21.0.3]
+
+Moved Files:
+------------
+Android Gradle projects use a different directory structure than ADT
+Eclipse projects. Here's how the projects were restructured:
+
+* AndroidManifest.xml => app/src/main/AndroidManifest.xml
+* assets/ => app/src/main/assets
+* proguard-project.txt => app/proguard-project.txt
+* res/ => app/src/main/res/
+* src/ => app/src/main/java/
+* Test/res/ => app/src/androidTest/res/
+* Test/src/ => app/src/androidTest/java/
+
+Next Steps:
+-----------
+You can now build the project. The Gradle project needs network
+connectivity to download dependencies.
+
+Bugs:
+-----
+If for some reason your project does not build, and you determine that
+it is due to a bug or limitation of the Eclipse to Gradle importer,
+please file a bug at http://b.android.com with category
+Component-Tools.
+
+(This import summary is for your information only, and can be deleted
+after import once you are satisfied with the results.)
