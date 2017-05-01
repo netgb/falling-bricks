@@ -21,4 +21,4 @@ By ending of April 2015, I had ported the Java ME version of Falling Bricks to A
 
 If you want to comment on my work, you can contact me by email at aaronbaffourawuah@gmail.com or by phone at +233274368057.
 
-*Last edited on 27th April 2015.*
+*Originally written on 27th April 2015.*
