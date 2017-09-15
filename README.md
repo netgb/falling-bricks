@@ -19,6 +19,4 @@ By the ending of September 2014 I had developed Falling Bricks for my Nokia C3 (
 
 By ending of April 2015, I had ported the Java ME version of Falling Bricks to Android, making it my first Android application.
 
-If you want to comment on my work, you can contact me by email at aaronbaffourawuah@gmail.com or by phone at +233274368057.
-
 *Originally written on 27th April 2015.*
